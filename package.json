@@ -1,6 +1,6 @@
 {
   "name": "skyer-example",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Example fro skyer web framework",
   "main": "index.js",
   "scripts": {
