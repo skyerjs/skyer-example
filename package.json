@@ -1,0 +1,31 @@
+{
+  "name": "skyer-example",
+  "version": "0.0.1",
+  "description": "Example fro skyer web framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "export DEBUG=skyer*;node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skyerjs/skyer-example.git"
+  },
+  "keywords": [
+    "skyer",
+    "example",
+    "web",
+    "app"
+  ],
+  "author": "jerrywu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skyerjs/skyer-example/issues"
+  },
+  "homepage": "https://github.com/skyerjs/skyer-example#readme",
+  "dependencies": {
+    "koa-swig": "^2.2.0",
+    "moment": "^2.14.1",
+    "skyer": "^1.0.5"
+  }
+}
