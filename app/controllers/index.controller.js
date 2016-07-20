@@ -11,31 +11,52 @@ class IndexController extends Skyer.Controller {
     };
   }
 
-  mysqlTest(){
-    return function*(){
+  mysqlTest() {
+    return function*() {
       const mysqlClient = skyer.componentManager.getComponent('mysqlClient');
-      
+
       const sql = 'SELECT * FROM users limit 0,20;';
-      
+
       this.body = yield mysqlClient.queryRows(sql);
-    }
+    };
   }
 
-  redisTest(){
-    return function* (){
+  redisTest() {
+    return function* () {
 
       const redisClient = skyer.componentManager.getComponent('redisClient');
 
       yield redisClient.set('skyer', Skyer.version);
-    
+
       const version = yield redisClient.get('skyer');
 
       this.body = 'skyer version:' + version;
-    }
+    };
   }
 
-  logger(){
-    return function* (){
+  mongoTest() {
+    return function* () {
+      const mongoClient = skyer.componentManager.getComponent('mongoClient');
+
+      const collection = mongoClient.collection('users');
+
+      const document = {
+        name: 'test',
+        created_at: new Date()
+      };
+
+      // insert
+      yield collection.insert(document);
+
+      // query
+      const users = yield collection.find({}).skip(1).limit(1).project({ name: 1, created_at: 1 }).toArray();
+
+      this.body = users;
+    };
+  }
+
+  logger() {
+    return function* () {
       skyer.logger.error('This is error logger.........');
 
       this.body = 'ok';

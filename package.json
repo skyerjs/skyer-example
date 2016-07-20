@@ -25,8 +25,9 @@
   "homepage": "https://github.com/skyerjs/skyer-example#readme",
   "dependencies": {
     "moment": "^2.14.1",
-    "skyer": "^1.2.0",
+    "skyer": "^1.2.3",
     "skyer-mysql-client-component": "^0.1.1",
-    "skyer-redis-client-component": "^0.1.2"
+    "skyer-redis-client-component": "^0.1.2",
+    "skyer-mongo-client-component": "^0.1.1"
   }
 }

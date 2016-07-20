@@ -1,3 +1,3 @@
 module.exports.http = {
-  port: 3002
+  port: 3000
 };
