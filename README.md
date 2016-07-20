@@ -27,6 +27,10 @@ $ curl http://localhost:3000/
 
 Hello skyer!
 
+## Example
+
+![image](https://github.com/skyerjs/skyer-example/blob/master/docs/startup-1.png)
+![image](https://github.com/skyerjs/skyer-example/blob/master/docs/startup-2.png)
 
 ## Licences
 
