@@ -7,7 +7,7 @@ class ApiNotFoundMiddleware extends Skyer.AppMiddleware {
     this.order = 140;
 
     // disabled
-    this._enabled = false;
+    this._enabled = true;
   }
 
   __default() {
