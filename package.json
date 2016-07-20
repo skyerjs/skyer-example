@@ -24,7 +24,6 @@
   },
   "homepage": "https://github.com/skyerjs/skyer-example#readme",
   "dependencies": {
-    "koa-swig": "^2.2.0",
     "moment": "^2.14.1",
     "skyer": "^1.2.0",
     "ioredis": "^2.2.0",
