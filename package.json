@@ -26,7 +26,7 @@
   "dependencies": {
     "moment": "^2.14.1",
     "skyer": "^1.2.0",
-    "ioredis": "^2.2.0",
-    "skyer-mysql-client-component": "^0.1.0"
+    "skyer-mysql-client-component": "^0.1.1",
+    "skyer-redis-client-component": "^0.1.2"
   }
 }
