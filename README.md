@@ -29,8 +29,8 @@ Hello skyer!
 
 ## Example
 
-![image](https://github.com/skyerjs/skyer-example/blob/master/docs/startup-1.png)
-![image](https://github.com/skyerjs/skyer-example/blob/master/docs/startup-2.png)
+![image](https://raw.github.com/skyerjs/skyer-example/master/docs/startup-1.png)
+![image](https://raw.github.com/skyerjs/skyer-example/master/docs/startup-2.png)
 
 ## Licences
 
