@@ -24,10 +24,13 @@
   },
   "homepage": "https://github.com/skyerjs/skyer-example#readme",
   "dependencies": {
+    "mongoose": "^4.5.5",
     "moment": "^2.14.1",
     "skyer": "^1.2.3",
     "skyer-mysql-client-component": "^0.1.1",
     "skyer-redis-client-component": "^0.1.2",
-    "skyer-mongo-client-component": "^0.1.1"
+    "skyer-mongo-client-component": "^0.1.1",
+    "skyer-mongoose-component": "^0.1.2",
+    "skyer-sequelize-component": "^0.1.0"
   }
 }
