@@ -17,8 +17,20 @@ $ git clone https://github.com/skyerjs/skyer-example
 ```js
 $ cd skyer-example
 $ npm install
+```
+
+## Run
+> Unix
+
+```
 $ npm start
 ```
+
+> Window
+```
+$ node app.js
+```
+
 Then
 
 ```bash
