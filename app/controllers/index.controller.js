@@ -7,7 +7,19 @@ class IndexController extends Skyer.Controller {
 
   index() {
     return function* () {
-      yield this.render('index');
+
+      yield this.render('index', {
+        body: 'Hello Skyer!'
+      });
+
+      /*
+      yield this.render('index_swig', {
+        body: 'Hello Skyer!'
+      });
+
+      yield this.render('index_ejs', {
+        body: 'Hello Skyer!'
+      });*/
     };
   }
 

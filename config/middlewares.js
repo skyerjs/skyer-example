@@ -6,9 +6,11 @@ module.exports.middlewares = {
   // if default = false, will register middlewares by list config.
   list: [
     ['responseTime', 11],
+    ['ejs', 5],
     {
       name: 'logger',
-      order: 21
+      order: 21,
+      options: {}
     },
     {
       name: 'responseTime',
@@ -16,12 +18,18 @@ module.exports.middlewares = {
     },
     {
       name: 'cors',
-      order: 16
+      order: 16,
+      options: {
+        name: 'jerrywu'
+      }
     },
     // this is invalid
     {
       name: 'nb',
       order: 16
+    },
+    {
+      name: 'mockUser'
     }
   ]
 };
